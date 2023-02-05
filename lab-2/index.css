@@ -79,6 +79,7 @@ body {
     position: absolute;
     transform: translateY(-50%, 50%);
     transition: all .27s ease;
+    user-select: none;
 }
 
 .arrow-left {
