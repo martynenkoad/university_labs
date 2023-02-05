@@ -3,4 +3,4 @@ function parseImageUrl(image) {
     return image.replace(hostname, "")
 }
 
-export default parseImageUrl
+export default parseImageUrl 

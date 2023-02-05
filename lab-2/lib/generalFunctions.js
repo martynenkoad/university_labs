@@ -14,4 +14,4 @@ export function loadImageToFullscreen(image) {
     fsImage.src = parseImageUrl(image.src)
     fsImage.id = "img"
     fullScreen.appendChild(fsImage)
-}
+} 

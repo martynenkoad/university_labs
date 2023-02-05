@@ -12,7 +12,7 @@ export function handleLeftArrowClick(images, currentImageIndex) {
     } else {
         removeImageFromFullscreen()
     }
-}
+} 
 
 export function handleRightArrowClick(images, currentImageIndex) {
     if(currentImageIndex < images.length) {
