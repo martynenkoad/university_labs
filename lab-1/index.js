@@ -27,6 +27,7 @@ async function getCocktails() {
             errorPlaceholder.innerHTML = error.message || error.toString()
         }
     } else {
+        fetchedDiv.innerHTML = ""
         errorPlaceholder.innerHTML = "Your input can't be empty!"
     }
 }
